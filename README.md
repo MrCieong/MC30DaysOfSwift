@@ -4,3 +4,7 @@
 
 ### 自定义字体
 ![](https://github.com/MrCieong/MC30DaysOfSwift/blob/master/gif/ChangFont.gif)
+
+### 播放本地视频
+tips:在类头部连续打三个`/` 生成 `// MARK: - `
+![](https://github.com/MrCieong/MC30DaysOfSwift/blob/master/gif/PlayLocalVideo.gif)
