@@ -16,3 +16,11 @@ tips:在类头部连续打三个`/` 生成 `// MARK: - `
 
 - 使用及检测Long Press Gestures
 - 同一个UIButton上多种操作
+
+### DELETING AND REARRANGING
+![](https://github.com/MrCieong/MC30DaysOfSwift/blob/master/gif/DeletingAndRearranging.gif)
+
+- 从数据源删除数据
+- 删除Table Row
+- 重新排列Table Rows
+- 支持Swipe删除Table Row
