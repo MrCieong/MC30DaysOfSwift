@@ -23,3 +23,18 @@ class ViewController: UITableViewController {
 
 }
 
+extension ViewController {
+  override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    return 10
+  }
+  
+  override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return 20
+  }
+  
+  override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
+    
+    return cell
+  }
+}
