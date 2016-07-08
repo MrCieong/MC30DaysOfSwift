@@ -24,3 +24,11 @@ tips:在类头部连续打三个`/` 生成 `// MARK: - `
 - 删除Table Row
 - 重新排列Table Rows
 - 支持Swipe删除Table Row
+
+### Add Self-sizing Table View Cells
+![](https://github.com/MrCieong/MC30DaysOfSwift/blob/master/gif/Self-sizingTableViewCells.gif)
+
+- Self-Sizing Table View Cells
+- Expanding Cells
+- Dynamic Type
+原文：<https://www.raywenderlich.com/129059/self-sizing-table-view-cells>

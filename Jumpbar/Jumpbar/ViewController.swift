@@ -12,7 +12,10 @@ class ViewController: UITableViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    let timeZoneNames = NSTimeZone.knownTimeZoneNames()
+    for timeZoneName in timeZoneNames {
+      print(timeZoneName)
+    }
   }
 
   override func didReceiveMemoryWarning() {
