@@ -32,3 +32,10 @@ tips:在类头部连续打三个`/` 生成 `// MARK: - `
 - Expanding Cells
 - Dynamic Type
 原文：<https://www.raywenderlich.com/129059/self-sizing-table-view-cells>
+
+### Swipe To Dismiss Keyboard
+![](https://github.com/MrCieong/MC30DaysOfSwift/blob/master/gif/SwipeToDismissKeyboard.gif)
+
+- 当view加载后自启动键盘
+- 添加向下的Swipe手势关闭键盘
+- 在prepareForSegue中传递数据
