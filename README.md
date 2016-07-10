@@ -25,6 +25,7 @@ tips:在类头部连续打三个`/` 生成 `// MARK: - `
 - 重新排列Table Rows
 - 支持Swipe删除Table Row
 
+
 ### Add Self-sizing Table View Cells
 ![](https://github.com/MrCieong/MC30DaysOfSwift/blob/master/gif/Self-sizingTableViewCells.gif)
 
@@ -39,3 +40,9 @@ tips:在类头部连续打三个`/` 生成 `// MARK: - `
 - 当view加载后自启动键盘
 - 添加向下的Swipe手势关闭键盘
 - 在prepareForSegue中传递数据
+
+### AnimateTableViewCell
+![](https://github.com/MrCieong/MC30DaysOfSwift/blob/master/gif/AnimateTableViewCell.gif)
+
+- 给TableViewCell添加动画
+- 绘制CAGradientLayer
