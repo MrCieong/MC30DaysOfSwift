@@ -46,3 +46,11 @@ tips:在类头部连续打三个`/` 生成 `// MARK: - `
 
 - 给TableViewCell添加动画
 - 绘制CAGradientLayer
+
+### ImagePickerController
+![](https://github.com/MrCieong/MC30DaysOfSwift/blob/master/gif/ImagePickerController.gif)
+
+- 使用UIImagePickerController添加图片
+- 使用stroyboard添加ImageView到UIScrollView中，设置约束及ImageView的Intrinsic Size：Placeholder
+- 添加图片缩放功能
+
