@@ -42,13 +42,17 @@ class Animator: NSObject, UIViewControllerAnimatedTransitioning {
             imageView.clipsToBounds = true
         }
         
-        
-        UIView.animateWithDuration(duration, animations: { 
+        UIView.animateWithDuration(duration, delay: 0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: [], animations: { 
             imageView.transform = self.operation == .Push ? CGAffineTransformIdentity : CGAffineTransformMakeScale(xScale, yScale)
             imageView.center = CGPoint(x: CGRectGetMidX(finalFrame), y: CGRectGetMidY(finalFrame))
             }) { (_) in
                 transitionContext.completeTransition(true)
         }
+//        UIView.animateWithDuration(duration, animations: { 
+//            
+//            }) { (_) in
+//                
+//        }
         
     }
 }
