@@ -53,4 +53,8 @@ tips:在类头部连续打三个`/` 生成 `// MARK: - `
 - 使用UIImagePickerController添加图片
 - 使用stroyboard添加ImageView到UIScrollView中，设置约束及ImageView的Intrinsic Size：Placeholder
 - 添加图片缩放功能
+### CustomTransitions
+![](https://github.com/MrCieong/MC30DaysOfSwift/blob/master/gif/CustomTransitions.gif)
 
+- 使用UICollectionView展示图片
+- 自定义UINavigationController Transition Animations
