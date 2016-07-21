@@ -47,12 +47,6 @@ class Animator: NSObject, UIViewControllerAnimatedTransitioning {
             imageView.center = CGPoint(x: CGRectGetMidX(finalFrame), y: CGRectGetMidY(finalFrame))
             }) { (_) in
                 transitionContext.completeTransition(true)
-        }
-//        UIView.animateWithDuration(duration, animations: { 
-//            
-//            }) { (_) in
-//                
-//        }
-        
+        }        
     }
 }

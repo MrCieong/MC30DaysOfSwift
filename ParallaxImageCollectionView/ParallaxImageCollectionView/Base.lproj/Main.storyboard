@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Hss-e1-umb">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="HmE-Du-bwK">
+            <objects>
+                <collectionViewController id="Hss-e1-umb" customClass="ViewController" customModule="ParallaxImageCollectionView" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" id="2bk-g5-TK9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="s4J-3o-f3C" customClass="ParallaxLayout" customModule="ParallaxImageCollectionView" customModuleProvider="target">
+                            <size key="itemSize" width="100" height="100"/>
+                            <size key="headerReferenceSize" width="50" height="267"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="10"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="WK7-Np-DjM">
+                                <rect key="frame" x="10" y="277" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </collectionViewCell>
+                        </cells>
+                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ImageHeaderView" id="AEp-Mu-6LA" customClass="ImageHeaderView" customModule="ParallaxImageCollectionView" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="267"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="water-lily" translatesAutoresizingMaskIntoConstraints="NO" id="w77-ZD-R8w">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="267"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                                    </userDefinedRuntimeAttributes>
+                                </imageView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="w77-ZD-R8w" firstAttribute="top" secondItem="AEp-Mu-6LA" secondAttribute="top" id="QiW-Iy-s38"/>
+                                <constraint firstItem="w77-ZD-R8w" firstAttribute="leading" secondItem="AEp-Mu-6LA" secondAttribute="leading" id="afC-s5-Te1"/>
+                                <constraint firstAttribute="bottom" secondItem="w77-ZD-R8w" secondAttribute="bottom" id="ii2-du-liz"/>
+                                <constraint firstAttribute="trailing" secondItem="w77-ZD-R8w" secondAttribute="trailing" id="yE7-Pm-TW0"/>
+                            </constraints>
+                        </collectionReusableView>
+                        <connections>
+                            <outlet property="dataSource" destination="Hss-e1-umb" id="gVn-z6-Nst"/>
+                            <outlet property="delegate" destination="Hss-e1-umb" id="qh3-oJ-APW"/>
+                        </connections>
+                    </collectionView>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qOW-UV-933" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="41.5" y="276.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="water-lily" width="640" height="426"/>
+    </resources>
+</document>

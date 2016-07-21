@@ -2,6 +2,11 @@
 
 参考了SAM LU的[100 Days of Swift](http://samvlu.com)及allenwong的30DaysofSwift：[博文](http://weibo.com/ttarticle/p/show?id=2309403942494873235448)
 
+### ParallaxCollectionView
+![](https://github.com/MrCieong/MC30DaysOfSwift/blob/master/gif/ParallaxCollectionView.gif)
+
+- 自定义UICollectionViewFlowLayout实现Parallax效果
+
 ### 自定义字体
 ![](https://github.com/MrCieong/MC30DaysOfSwift/blob/master/gif/ChangFont.gif)
 
