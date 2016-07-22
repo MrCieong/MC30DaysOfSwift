@@ -10,4 +10,19 @@ import UIKit
 
 class ImageHeaderView: UICollectionReusableView {
         
+  @IBOutlet weak var imageView: UIImageView!
+  
+  var image: UIImage? {
+    willSet {
+      imageView.alpha = 0.5
+    }
+    
+    didSet {
+      UIView.animateWithDuration(1) {
+        self.imageView.image = self.image
+        self.imageView.alpha = 1
+      }
+    }
+  }
+  
 }

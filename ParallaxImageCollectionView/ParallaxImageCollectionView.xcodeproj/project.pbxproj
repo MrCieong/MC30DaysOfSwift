@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		613E944C1D425BDE00AA8CBB /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613E944B1D425BDE00AA8CBB /* ImageCell.swift */; };
 		614FFC3D1D411025008E725E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614FFC3C1D411025008E725E /* AppDelegate.swift */; };
 		614FFC3F1D411025008E725E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614FFC3E1D411025008E725E /* ViewController.swift */; };
 		614FFC421D411025008E725E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614FFC401D411025008E725E /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		613E944B1D425BDE00AA8CBB /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		614FFC391D411025008E725E /* ParallaxImageCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParallaxImageCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		614FFC3C1D411025008E725E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		614FFC3E1D411025008E725E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +41,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		613E944E1D425BF200AA8CBB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				614FFC401D411025008E725E /* Main.storyboard */,
+				614FFC521D4113ED008E725E /* ParallaxLayout.swift */,
+				614FFC501D41135E008E725E /* ImageHeaderView.swift */,
+				613E944B1D425BDE00AA8CBB /* ImageCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		613E944F1D425C0400AA8CBB /* Application Support */ = {
+			isa = PBXGroup;
+			children = (
+				614FFC3C1D411025008E725E /* AppDelegate.swift */,
+				614FFC431D411025008E725E /* Assets.xcassets */,
+				614FFC451D411025008E725E /* LaunchScreen.storyboard */,
+				614FFC481D411025008E725E /* Info.plist */,
+			);
+			name = "Application Support";
+			sourceTree = "<group>";
+		};
 		614FFC301D411025008E725E = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +82,9 @@
 		614FFC3B1D411025008E725E /* ParallaxImageCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				614FFC3C1D411025008E725E /* AppDelegate.swift */,
-				614FFC521D4113ED008E725E /* ParallaxLayout.swift */,
+				613E944F1D425C0400AA8CBB /* Application Support */,
+				613E944E1D425BF200AA8CBB /* View */,
 				614FFC3E1D411025008E725E /* ViewController.swift */,
-				614FFC501D41135E008E725E /* ImageHeaderView.swift */,
-				614FFC401D411025008E725E /* Main.storyboard */,
-				614FFC431D411025008E725E /* Assets.xcassets */,
-				614FFC451D411025008E725E /* LaunchScreen.storyboard */,
-				614FFC481D411025008E725E /* Info.plist */,
 			);
 			path = ParallaxImageCollectionView;
 			sourceTree = "<group>";
@@ -146,6 +165,7 @@
 				614FFC3F1D411025008E725E /* ViewController.swift in Sources */,
 				614FFC531D4113ED008E725E /* ParallaxLayout.swift in Sources */,
 				614FFC3D1D411025008E725E /* AppDelegate.swift in Sources */,
+				613E944C1D425BDE00AA8CBB /* ImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +315,7 @@
 				614FFC4D1D411025008E725E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
