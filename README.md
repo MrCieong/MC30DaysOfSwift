@@ -2,6 +2,14 @@
 
 参考了SAM LU的[100 Days of Swift](http://samvlu.com)及allenwong的30DaysofSwift：[博文](http://weibo.com/ttarticle/p/show?id=2309403942494873235448)
 
+### CollectionView Header & Cell & Footer
+![](https://github.com/MrCieong/MC30DaysOfSwift/blob/master/gif/ParalxCollectionViewAdvance.gif)
+
+- 使用UICollectionView实现Cell点击
+- 使用动画改变Header图片
+- 使用CollectionViewFooter展示信息
+- 设置StautsBar Style
+
 ### ParallaxCollectionView
 ![](https://github.com/MrCieong/MC30DaysOfSwift/blob/master/gif/ParallaxCollectionView.gif)
 
