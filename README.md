@@ -1,6 +1,13 @@
 ## 30天学习Swift
 
-参考了SAM LU的[100 Days of Swift](http://samvlu.com)及allenwong的30DaysofSwift：[博文](http://weibo.com/ttarticle/p/show?id=2309403942494873235448)
+部分示例参考了SAM LU的[100 Days of Swift](http://samvlu.com)及allenwong的30DaysofSwift：[博文](http://weibo.com/ttarticle/p/show?id=2309403942494873235448)
+
+### BlurEffectView
+![](https://github.com/MrCieong/MC30DaysOfSwift/blob/master/gif/BlurEffect.gif)
+
+- 使用UIVisualEffectView
+- 使用UIScrollView
+
 
 ### CollectionView Header & Cell & Footer
 ![](https://github.com/MrCieong/MC30DaysOfSwift/blob/master/gif/ParalxCollectionViewAdvance.gif)
